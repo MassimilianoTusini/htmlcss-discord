@@ -128,6 +128,13 @@ nav{
     color: white;
 }
 
+.download{
+    background-color: #8EA1E2;
+    color: white;
+    padding: 20px 35px;
+    
+}
+
 
 /* Regole Sezioni */
 
@@ -139,15 +146,23 @@ section{
     background-color: #e5e5e5;
 }
 
-.small-section{
-    padding: 25px 0;
+.last-section{
+    text-align: center;
 }
 
-.last-section{
-    min-height: 700px;
-    flex-basis: 100%;
-    background-color: #218B21;
+.last-section p{
+    padding: 0 40px;
 }
+
+.image{
+    display: block;
+    width: 100%;  
+}
+
+.star{
+    width: 60%;
+}
+
 
 /* Regole onde */
 
@@ -166,7 +181,16 @@ section{
 
 h2{
     margin-bottom: 30px;
+    padding-top: 25px;
 }
+
+h3{
+    font-size: 32px;
+    line-height: 0;
+    padding-bottom: 70px;
+    
+}
+
 
 /* Regole Colonne Footer */
 .black-main{
