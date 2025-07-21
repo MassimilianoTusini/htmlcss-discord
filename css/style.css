@@ -26,10 +26,6 @@ body{
     margin: 0 auto;
 }
 
-.padding{
-    padding: 10px 10px;
-}
-
 a{
     text-decoration: none;
     color: white;
@@ -41,13 +37,17 @@ a{
 }
 
 .font-title{
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .font-p{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 35px;
 
+}
+
+.gap{
+    gap: 50px;
 }
 /* Regole barra di navigazione */
 
@@ -96,7 +96,7 @@ nav{
 .jumbo-title{
     justify-content: center;
     color: white;
-    padding: 40px 0;
+    padding-bottom: 40px ;
 }
 
 .jumbo-p{
@@ -134,29 +134,35 @@ nav{
 
 .white{
     background-color: #fff;
-    padding: 40px 0;
+    padding: 100px 0;
 }
 
 .grey{
     background-color: #D3D3D3;
-    padding: 40px 0;
+    padding: 100px 0;
 }
 
 .big-section{
     min-height: 350px;
-    background-color: #1E90FF;
-    flex-basis: 60%;
+    /* background-color: #1E90FF;
+    flex-basis: 60%; */
 }
 .small-section{
     min-height: 350px;
-    background-color: #FFC0CA;
-    flex-basis: 40%;
+    /* background-color: #FFC0CA;
+    flex-basis: 40%; */
+    padding: 25px 0;
 }
 
 .last-section{
     min-height: 700px;
     flex-basis: 100%;
     background-color: #218B21;
+}
+/* Regole testo Sezioni */
+
+h2{
+    margin-bottom: 30px;
 }
 
 /* Regole Colonne Footer */
