@@ -263,27 +263,16 @@ h3{
 
 .black-footer{
     background-color: #23272A;
-    padding-top: 15px;
-    border-top:1px solid #7188DB;
-   
-    
-
+    padding: 0;
 }
+
 .banner-footer{
-    background-color: #7FFFD4;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 35px 0;
     border-top:1px solid #7188DB;
 }
 
-.second-logo{
-    background-color: #FFB8C0;
-    border: 1px dashed black;
-    padding: 2px 5px;
-}
-
-.button{
-    background-color: #FFB8C0;
-    border: 1px dashed black;
-    padding: 2px 5px;
+.purple{
+    background-color: #8EA1E2;
+    color: white;
 }
