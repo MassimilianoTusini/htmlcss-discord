@@ -23,15 +23,19 @@ body{
 
 .container{
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
 
 a{
     text-decoration: none;
     color: white;
-    margin: 0 20px;
-    
+    cursor: pointer;
 }
+
+.a-list{
+    margin: 0 20px;   
+}
+
 .flex{
     display: flex;
 }
@@ -49,6 +53,7 @@ a{
 .gap{
     gap: 50px;
 }
+
 /* Regole barra di navigazione */
 
 .logo{
@@ -65,17 +70,15 @@ a{
     cursor: pointer;
     
 }
-.link{
-    justify-content: center;  
-    align-items: center;
-}
+
 ul{
     list-style-type: none;
 }
+
 nav{
     flex-basis: 80%;
-    justify-content: center;
-    
+    justify-content: center; 
+    align-items: center; 
 }
 
 /* Regole Jumbotron */
@@ -96,7 +99,7 @@ nav{
 .jumbo-title{
     justify-content: center;
     color: white;
-    padding-bottom: 40px ;
+    padding-bottom: 40px;
 }
 
 .jumbo-p{
@@ -193,38 +196,76 @@ h3{
 
 
 /* Regole Colonne Footer */
+
 .black-main{
-    padding: 5px 0 25px;
+    padding: 100px 0 30px 0;
     background-color:#23272A;
-
 }
 
-.column-box{
-    flex-basis: 100%;
-    height: 500px;
-
-}
-
-.column{
-    height: 500px;
-}
-
-.red{
+.big-column{
     flex-basis: 30%;
-    background-color: #F08080;
 }
 
-.turquoise{
-    background-color: #1FB3AB;
+.small-column{
     flex-grow: 1;
-    border: 2px dashed white;
+}
+
+
+
+/* Regole scritte Footer */
+
+.font-big{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.blue{
+    color: #7188DB;
+    font-weight: bold;
+}
+
+.flag{
+    width: 10%;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.ita{
+    vertical-align: middle;
+    color: white;
+}
+
+.fa-angle-down{
+    vertical-align: middle;
+    font-size: 12px;
+    margin: 0 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.div-icons{
+    padding-top: 25px;
+}
+
+.icons{
+    color: white;
+    font-size: 25px;
+    margin-right: 25px;
+    cursor: pointer;  
+}
+
+/* Regole liste Footer */
+
+.final-list{
+    margin: 15px 0;
 }
 
 /* Regole Banner Footer */
+
 .black-footer{
     background-color: #23272A;
     padding-top: 15px;
-    border-top: 1px solid white;
+    border-top:1px solid #7188DB;
+   
     
 
 }
@@ -232,6 +273,7 @@ h3{
     background-color: #7FFFD4;
     justify-content: space-between;
     padding: 15px 0;
+    border-top:1px solid #7188DB;
 }
 
 .second-logo{
